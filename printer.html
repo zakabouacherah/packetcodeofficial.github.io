@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="loginStyle.css">
+  <title>Printer Project</title>
+  <link rel="shortcut icon" href="printer.png">
+  
+</head>
+<body>
+  <div class="project_logo">
+    <img src="printer.png" alt="">
+    <p class="sen">Print whatever you need in one minute or <span class="less"> Less</span></p>
+  </div>
+  <div class="login_card">
+    <h2>Printer</h2>
+    <h3>Enter your informations</h3>
+    <form class="login_form">
+      <label class="lab" for="Study Branche"> Study Branch : </label>
+      <select name="Study Branch" id="sel1">
+        <option selected value="digital development"> Digital Development 101 </option>
+        <option value="digital infrastructure"> Digital Infrastructur 101 </option>
+        <option value="Administration Gestion et Commerce"> Administration Gestion et Commerce 101 </option>
+        <option value="Infographie"> Infographie 101 </option>
+      </select>
+      <label class="lab" for="Module"> Module : </label>
+      <select name="Module" id="sel2">
+        <option selected value="Algo & Python"> Algo & Python </option>
+        <option value="Anglais"> Anglais </option>
+        <option value="PIE"> PIE </option>
+        <option value="Front-End"> Front-End </option>
+        <option value="Back-End"> Back-End </option>
+        <option value="architecture des ordinateurs"> Architecture des ordinateurs </option>
+      </select>
+      
+      <button>Search</button>
+      <p class="file"> You have your own doc and you want to print it ? </p>
+      <label class="lab" for="myfile">Select it :</label>
+      <input type="file" id="myfile" name="myfile">
+      <button>Send</button>
+    </form>
+  </div>
+</body>
+</html>
